@@ -1,12 +1,29 @@
-table{
+table {
+    display: table;
+    border-collapse:collapse;
+    border-spacing:2px;
     width: 400px;
 }
 
-th{
-    text-align: center ;
+caption {
+    padding: 5px;
+
 }
 
-table,td, th {
-    border: 1px solid #100;
+tbody tr:nth-child(odd) {
+    background:lightblue;
+
+}
+
+th {
+    color:blue;
+    text-align: center;
+    background-color:lightgray;
+    
+}
+
+table, th, td {
+    border: 3px solid #999;
     padding: 0.5 rem;
 }
+
