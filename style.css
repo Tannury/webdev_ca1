@@ -1,29 +1,128 @@
-table {
+.hometable {
     display: table;
     border-collapse:collapse;
     border-spacing:2px;
-    width: 400px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 1100px;
+    
 }
 
-caption {
+.hometable caption{
     padding: 5px;
+    font-size: 40px;
+    font-weight: 900;
+    color:black;
+}
+
+
+.hometable th{
+    color:rgb(241, 241, 245);
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    background-color:darkgreen;
+    height: 50px;
+
+}
+.hometable table, th, td {
+    border: 3px solid greenyellow;
+    padding: 0.5 rem;
+    
+}
+
+
+
+
+.employeetable , .jobtitletab , .salarytab, .dprttab, .dprtmanagertab {
+    display: table;
+    border-collapse:collapse;
+    border-spacing:2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 1100px;
+    
+}
+
+.employeetable caption , .jobtitletab caption, .salarytab caption , .dprttab caption, .dprtmanagertab caption {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 900;
+    color:red;
 
 }
 
-tbody tr:nth-child(odd) {
+.employeetable tbody tr, .jobtitletab tbody tr, .salarytab tbody, .dprttab tbody, .dprtmanagertab tbody:nth-child(odd) {
     background:lightblue;
 
 }
 
-th {
-    color:blue;
-    text-align: center;
-    background-color:lightgray;
+.employeetable th {
+    color:rgb(241, 241, 245);
+    font-size: 14px;
+    font-weight: 900;
+    text-align:center;
+    background-color:blue;
+    height: 60px;
     
 }
 
-table, th, td {
-    border: 3px solid #999;
-    padding: 0.5 rem;
+.jobtitletab th  {
+    color:rgb(241, 241, 245);
+    font-size: 14px;
+    font-weight: 900;
+    text-align:center;
+    background-color:blueviolet;
+    height: 60px;
+    
 }
 
+.salarytab th {
+    color:rgb(241, 241, 245);
+    font-size: 14px;
+    font-weight: 900;
+    text-align:center;
+    background-color:orangered;
+    height: 60px;
+    
+}
+
+.dprttab th {
+    color:rgb(241, 241, 245);
+    font-size: 14px;
+    font-weight: 900;
+    text-align:center;
+    background-color:red;
+    height: 60px;
+    
+}
+
+.dprtmanagertab th {
+    color:rgb(241, 241, 245);
+    font-size: 14px;
+    font-weight: 900;
+    text-align:center;
+    background-color:rgb(255, 187, 0);
+    height: 60px;
+    
+}
+
+
+.employeetable th, .jobtitletab th,.jobtitletab th, .salarytab th, .dprttab th, .dprtmanagertab th {
+    
+    position: sticky;
+    top:0;
+
+}
+
+
+.employeetable td, .jobtitletab td, .salarytab td, .dprttab td, .dprtmanagertab td {
+    height: 30px;
+
+}
+
+.employeetable table, th, td , .jobtitletab table, .salarytab table, .dprttab table, .dprtmanagertab table {
+    border: 3px solid lightslategrey;
+    padding: 0.5 rem;
+
+}
